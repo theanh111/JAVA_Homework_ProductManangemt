@@ -19,16 +19,16 @@ public class ProductManagement implements IManagement<Product> {
     }
 
     @Override
-    public void add(Product object) {
+    public void add(Product product) {
         boolean flag = true;
         for (int i = 0; i < products.size(); i++) {
-            if (object.getId() == products.get(i).getId()) {
+            if (product.getId() == products.get(i).getId()) {
                 flag = false;
                 break;
             }
         }
         if(flag) {
-            products.add(object);
+            products.add(product);
         }
     }
 
