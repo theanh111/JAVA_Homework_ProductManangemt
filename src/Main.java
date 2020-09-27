@@ -118,10 +118,10 @@ public class Main {
         System.out.println("2. Add a product");
         System.out.println("3. Delete a product (with ID)");
         System.out.println("4. Update a product (with ID)");
-        System.out.println("5. Find a product in list by name");
+        System.out.println("5. Find a product(s) in list by name");
         System.out.println("6. Find a product in list by ID");
-        System.out.println("7. Sort the list ascending");
-        System.out.println("8. Sort the list descending");
+        System.out.println("7. Sort the list ascending by price");
+        System.out.println("8. Sort the list descending by price");
         System.out.println("0. EXIT");
         System.out.println("------------------");
         System.out.println("-- Input your choice: --");
